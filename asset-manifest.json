@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react_shop_01/static/css/main.bb524411.css",
+    "main.js": "/react_shop_01/static/js/main.ed0c2d88.js",
+    "static/media/mainvisual02.jpg": "/react_shop_01/static/media/mainvisual02.7ed387b0bba63750dc1f.jpg",
+    "static/media/mainvisual01.jpg": "/react_shop_01/static/media/mainvisual01.de6445f47ca5c7eeb331.jpg",
+    "static/media/mainvisual03.jpg": "/react_shop_01/static/media/mainvisual03.0f235368fbc6d422516f.jpg",
+    "index.html": "/react_shop_01/index.html",
+    "main.bb524411.css.map": "/react_shop_01/static/css/main.bb524411.css.map",
+    "main.ed0c2d88.js.map": "/react_shop_01/static/js/main.ed0c2d88.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb524411.css",
+    "static/js/main.ed0c2d88.js"
+  ]
+}

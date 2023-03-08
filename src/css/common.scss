@@ -1,10 +1,12 @@
 .Header {
     line-height: 100px;
+    align-items: center;
 
     // height: 100px;
     .inner {
         display: flex;
         justify-content: space-between;
+
     }
 
 }
@@ -30,6 +32,7 @@
             inset: 100px auto auto 0;
             line-height: 40px;
             background: #f7f7f7;
+            z-index: 999;
 
             width: 150px;
             text-align: center;

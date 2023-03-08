@@ -2,24 +2,83 @@
 export const DEFAULT = {
     company: 'Graff France',
     tel: '+33 (1) 83 75 54 56',
-    address: 'Headquarters 237 rue Saint-Honore Paris 75001s',
+    address: 'Headquarters 237 rue Saint-Honore Paris 75001',
+    service: [
+        { title: '이용약관', link: '/' },
+        { title: '문의하기', link: '/' },
+        { title: '개인정보 취급방침', link: '/' },
+        { title: '방문 예약하기', link: '/' },
+        { title: '사이즈 가이드', link: '/' },
+        { title: '그라프 하우스 소개', link: '/' },
+    ],
+
+    familyLink: [
+        { title: 'FamilyLink', link: '' },
+        { title: 'instagram', link: 'https://www.instagram.com/' },
+        { title: 'facebook', link: 'https://www.facebook.com/' },
+        { title: 'github', link: 'https://www.github.com/' },
+        { title: 'google', link: 'https://www.google.com/' }
+    ]
 }
+
+export const DEFAULT_PRODUCT = [
+
+    {
+        id: 1,
+        title: "제품이름01",
+        description: "스톤 그리고 색상들을 멋진 조합 01"
+    },
+
+    {
+        id: 2,
+        title: "제품이름02",
+        description: "스톤 그리고 색상들을 멋진 조합 02"
+    },
+
+    {
+        id: 3,
+        title: "제품이름03",
+        description: "스톤 그리고 색상들을 멋진 조합 03"
+    },
+
+    {
+        id: 4,
+        title: "제품이름04",
+        description: "스톤 그리고 색상들을 멋진 조합 04"
+    },
+
+    {
+        id: 5,
+        title: "제품이름05",
+        description: "스톤 그리고 색상들을 멋진 조합 05"
+    },
+
+    {
+        id: 6,
+        title: "제품이름06",
+        description: "스톤 그리고 색상들을 멋진 조합 06"
+    },
+
+]
 
 export const DEFAULT_CONTENTS = [
     {
         id: 1,
         title: '01.JEWELLERY COLLECTION',
         description: '모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷',
+        color: '#336699',
     },
     {
         id: 2,
         title: '02.JEWELLERY COLLECTION',
         description: '모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷',
+        color: '#663399',
     },
     {
         id: 3,
         title: '03.JEWELLERY COLLECTION',
         description: '모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷',
+        color: '#996633',
     },
 ]
 
@@ -68,18 +127,63 @@ export const NAV = [
         id: 3,
         title: '컬렉션 & 브라이덜',
         link: '/',
+        submenu: [
+            {
+                title: '01컬렉션 & 브라이덜',
+                link: '/sub01',
+            },
+            {
+                title: '02컬렉션 & 브라이덜',
+                link: '/sub02',
+            },
+            {
+                title: '03컬렉션 & 브라이덜',
+                link: '/sub03',
+            },
+
+        ]
 
     },
     {
         id: 4,
         title: '웨딩주얼리',
         link: '/',
+        submenu: [
+            {
+                title: '01웨딩주얼리',
+                link: '/sub01',
+            },
+            {
+                title: '02웨딩주얼리',
+                link: '/sub02',
+            },
+            {
+                title: '03웨딩주얼리',
+                link: '/sub03',
+            },
+
+        ]
 
     },
     {
         id: 5,
         title: '특별한 솔리테어',
         link: '/',
+        submenu: [
+            {
+                title: '01특별한 솔리테어',
+                link: '/sub01',
+            },
+            {
+                title: '02특별한 솔리테어',
+                link: '/sub02',
+            },
+            {
+                title: '03특별한 솔리테어',
+                link: '/sub03',
+            },
+
+        ]
 
     }
 
